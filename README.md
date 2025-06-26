@@ -16,17 +16,10 @@
 
 ---
 
-### ⭐ Meus Números no GitHub
+### ⭐ Meus Números no GitHub & 💻 Linguagens Mais Usadas
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Renan2583&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub do Renan"/>
-</p>
-
----
-
-### 💻 Linguagens Mais Usadas
-
-<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Renan2583&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub do Renan"/>&nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Renan2583&layout=compact&theme=dark" alt="Linguagens Mais Usadas do Renan"/>
 </p>
 
@@ -37,3 +30,9 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Renan2583/Renan2583/output/github-contribution-grid-snake-dark.svg">
   <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mari4souza/mari4souza/output/github-contribution-grid-snake.svg">
 </picture>
+
+---
+
+<div align="center">
+  <img src="https://github.com/Renan2583/Renan2583/blob/main/profile-header.svg" alt="Renan Coimbra - Digit" />
+</div>
