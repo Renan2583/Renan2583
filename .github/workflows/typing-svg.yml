@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Generate Typing SVG
-        uses: DenverCoder1/readme-typing-svg@v2.2 # Correção da indentação aqui
+        uses: DenverCoder1/readme-typing-svg@v2 # CORRIGIDO AQUI!
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           text: Olá! Meu nome é Renan Coimbra
