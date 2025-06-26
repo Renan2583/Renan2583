@@ -18,15 +18,9 @@
 
 ### ⭐ Meus Números no GitHub & 💻 Linguagens Mais Usadas
 
-<div align="center">
-  <table>
-    <tr>
-      <td valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=Renan2583&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub do Renan"/> </td>
-      <td valign="top">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Renan2583&layout=compact&theme=dracula" alt="Linguagens Mais Usadas do Renan"/> </td>
-    </tr>
-  </table>
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Renan2583&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=pt-br&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=caioxsf&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
 ---
