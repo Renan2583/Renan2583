@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions: # <--- Adicione esta seção de permissões
+    permissions:
       contents: write # Permite que a Action escreva no repositório
     steps:
       - uses: actions/checkout@v2
@@ -26,4 +26,4 @@ jobs:
           padding: 0
           cursor: '|'
           frames: 400
-          output_filepath: profile-header.svg # Garanta que o nome do arquivo de saída está correto
+          output_filepath: profile-header.svg
