@@ -1,0 +1,33 @@
+name: Generate Typing SVG
+
+on:
+  schedule:
+    - cron: "0 * * * *" # Executa a cada hora para manter atualizado (pode ajustar)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate Typing SVG
+        uses: DenverCoder1/readme-typing-svg@v2.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # O texto a ser digitado. Separe as frases com vírgulas.
+          # A primeira frase não tem efeito de digitação.
+          text: Olá! Meu nome é Renan Coimbra
+          # Tema vermelho e preto
+          font: Fira Code # Pode tentar outras fontes como 'Roboto', 'JetBrains Mono'
+          size: 24
+          color: FF0000 # Vermelho puro (HEX)
+          background: 00000000 # Transparente para o fundo do GitHub
+          center: true
+          # Ajuste de borda e estilo
+          border_radius: 5px
+          padding: 0
+          # Cursor
+          cursor: '|'
+          frames: 400 # Duração da animação em frames
+          # Salva o SVG no repositório
+          output_filepath: profile-header.svg
