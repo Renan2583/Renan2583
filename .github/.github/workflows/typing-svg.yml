@@ -1,0 +1,29 @@
+name: Generate Typing SVG
+
+on:
+  schedule:
+    - cron: "0 * * * *" # Executa a cada hora para manter atualizado (pode ajustar)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permite que a Action escreva no repositório
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate Typing SVG
+        uses: DenverCoder1/readme-typing-svg@v2.1.0 # VERSÃO EXATA E CORRETA
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          text: Olá! Meu nome é Renan Coimbra
+          font: Fira Code
+          size: 24
+          color: FF0000
+          background: 00000000
+          center: true
+          border_radius: 5px
+          padding: 0
+          cursor: '|'
+          frames: 400
+          output_filepath: profile-header.svg
